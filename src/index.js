@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dropdown from './components/Dropdown';
+import { Productcard } from './components/Productcard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <App />  
+    
+     {/* <Dropdown/> 
+    <Productcard  name ="Elavarsan" income="$20.00" brand="porsche"/>
+   <Productcard  name ="Ela" income="$25.00" brand="lamborghini"/> */}
+     
   </React.StrictMode>
 );
 
